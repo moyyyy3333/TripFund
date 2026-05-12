@@ -12,7 +12,7 @@ export default function AuthPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // For demo, just redirect to dashboard
-    window.location.href = '/dashboard';
+    window.location.href = '/TripFund/dashboard';
   };
 
   return (
@@ -90,7 +90,7 @@ export default function AuthPage() {
         </div>
 
         <div className="mt-6 text-center">
-          <Link href="/" className="text-textSecondary hover:text-primary transition-colors">
+          <Link href="/TripFund/" className="text-textSecondary hover:text-primary transition-colors">
             ← Back to home
           </Link>
         </div>

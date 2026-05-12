@@ -14,9 +14,9 @@ export default function ProfilePage() {
               <span className="font-bold text-xl">TripFund</span>
             </div>
             <div className="flex gap-6">
-              <Link href="/dashboard" className="text-textSecondary hover:text-primary transition-colors">Dashboard</Link>
-              <Link href="/pools" className="text-textSecondary hover:text-primary transition-colors">Pools</Link>
-              <Link href="/profile" className="text-primary font-semibold">Profile</Link>
+              <Link href="/TripFund/dashboard" className="text-textSecondary hover:text-primary transition-colors">Dashboard</Link>
+              <Link href="/TripFund/pools" className="text-textSecondary hover:text-primary transition-colors">Pools</Link>
+              <Link href="/TripFund/profile" className="text-primary font-semibold">Profile</Link>
             </div>
           </div>
         </div>

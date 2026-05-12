@@ -18,10 +18,10 @@ export default function Home() {
               Save together, travel together. The modern group savings platform for your next adventure.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/auth" className="px-8 py-4 bg-gradient-to-r from-primary to-accent rounded-xl font-semibold text-lg hover:opacity-90 transition-opacity text-center">
+              <a href="/TripFund/auth" className="px-8 py-4 bg-gradient-to-r from-primary to-accent rounded-xl font-semibold text-lg hover:opacity-90 transition-opacity text-center">
                 Get Started
               </a>
-              <a href="/dashboard" className="px-8 py-4 bg-surface border border-border rounded-xl font-semibold text-lg hover:bg-surfaceElevated transition-colors text-center">
+              <a href="/TripFund/dashboard" className="px-8 py-4 bg-surface border border-border rounded-xl font-semibold text-lg hover:bg-surfaceElevated transition-colors text-center">
                 View Demo
               </a>
             </div>
@@ -157,7 +157,7 @@ export default function Home() {
         <p className="text-xl text-textSecondary mb-8">
           Join thousands planning their next adventure together.
         </p>
-        <a href="/auth" className="inline-block px-12 py-5 bg-gradient-to-r from-primary to-accent rounded-xl font-bold text-lg hover:opacity-90 transition-opacity">
+        <a href="/TripFund/auth" className="inline-block px-12 py-5 bg-gradient-to-r from-primary to-accent rounded-xl font-bold text-lg hover:opacity-90 transition-opacity">
           Create Your First Pool
         </a>
       </div>
@@ -171,9 +171,9 @@ export default function Home() {
               <span className="font-bold text-xl">TripFund</span>
             </div>
             <div className="flex gap-8 text-textSecondary">
-              <a href="/dashboard" className="hover:text-primary transition-colors">Dashboard</a>
-              <a href="/pools" className="hover:text-primary transition-colors">Pools</a>
-              <a href="/profile" className="hover:text-primary transition-colors">Profile</a>
+              <a href="/TripFund/dashboard" className="hover:text-primary transition-colors">Dashboard</a>
+              <a href="/TripFund/pools" className="hover:text-primary transition-colors">Pools</a>
+              <a href="/TripFund/profile" className="hover:text-primary transition-colors">Profile</a>
               <a href="https://github.com/moyyyy3333/TripFund" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">GitHub</a>
             </div>
             <div className="text-textSecondary text-sm">
